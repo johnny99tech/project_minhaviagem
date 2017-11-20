@@ -1,0 +1,95 @@
+*{     margin: 0;  
+   	   padding: 0;     list-style-type: none;     box-shadow: border-box; 
+} 
+
+/*fator do responsivo*/
+img, picture{   max-width: 100%; }
+
+main{ max-width:1223px;     margin: 0 auto; }
+
+/*nav and response*/
+header{
+	margin: 50px 0 20px 0;
+	display: flex; /*para ficar do lado do outro*/
+}
+header h1{
+	width: 30%;
+}
+header nav{
+	/*width:70%;*/
+}
+header nav ol{
+	float: right;
+}
+header nav li{
+	display: inline-block;
+	margin: 10px 20px;
+	font-family: 'Spectral SC', serif; /*add a fonte no li, presente no googlefonts*/
+}
+header nav li:last-child{
+	margin: 0;
+}
+/*nav*/
+header a{
+	text-decoration: none;
+	color: black;
+}
+header a:hover{
+	text-decoration: underline;
+}
+div.home{
+	position: relative; /*relativo ao absoluto da div#dest-descricao */
+}
+div.dest-descricao{
+	position: absolute;
+	background-color: black;
+	opacity: 0.8;
+	width: 456px;
+	height: 127px;
+	right: 63px;
+	top:273px;
+}
+div.dest-descricao p{
+	position: absolute;
+	padding: 20px;
+	font-family: arial, verdana;
+	color: white;
+	font-size: 35px;
+}
+
+/*section*/div{
+	display: flex;
+	justify-content: ;
+}
+section div:last-child{
+	margin-right: 0;
+}
+
+/*section */div.dest-secundario{
+	width: 32%;
+	margin-right: 2%;
+}
+
+/*condições para resoluções diferentes: PC, tablet, cell (no minimo)*/
+@media screen and (max-width: 1359px){
+	/*comandos*/
+}
+/*@media screen and (max-width: 768px){
+	main{
+		background: yellow;
+	}
+}
+@media screen and (max-width: 640px){
+	main{
+		background: pink;
+	}
+}*/
+@media screen and (max-width: 500px){
+	/*section*/div{
+		display: block;
+	}
+	/*section */div.dest-secundario{
+	width: 100%;
+	margin-right: 0;
+		}
+}
