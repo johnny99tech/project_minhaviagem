@@ -2,16 +2,34 @@ nav{
 	padding-left: 59px;
 }
 .region{
-	background-color: #5f88bc;
     padding: 51px 27px;
     margin-top: 0px;
 }
+.region h2{
+ 	text-align: center;
+}
+#anuncios h3{
+ 	text-align: center;
+}
+.index{
+	background-color: #e3e327;
+	height: 47vmax;
+}
 #footer{
-	background-color: #5f88bc;
+	background-color: #262626;
     padding: 0px;
     margin-top: 0px;	
 }
-
+#baixar{
+	background-color: #fffc00;
+}
+#home, #voos{
+	background-color: #0066ff;
+}
+.info{
+	padding: 25px;	
+	background-color: #f8f9fb;
+}
 
 /* STYLE- DANI*/
 /*
