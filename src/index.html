@@ -10,28 +10,30 @@
 
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link href="css/style.css" rel="stylesheet">
-	<!-- bootstrap-->
+	   <!-- bootstrap-->
    	<link href="http://somewebsite.com/css/bootstrap.css" rel="stylesheet">
     <link href="http://somewebsite.com/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!--carrossel-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/<bootstrap_version_number>/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
-
-    <div class="container-fluid">
+<body style="background-color: #e8faf7;">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background: #16a085;">
 				<div class="navbar-header">
-					 
+
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button> <a class="navbar-brand" href="#">Minha Viagem</a>
+					</button> <a class="navbar-brand" href="#" style="color: black;">Minha Viagem</a>
 				</div>
-				
+
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav" style="padding-left:70%">
 						<li>
 							<a href="#home">Home</a>
 						</li>
@@ -47,22 +49,60 @@
 						<li>
 							<a href="#baixar">Baixar</a>
 						</li>
-					</ul>					
+					</ul>
 				</div>
-				
+
 			</nav>
-			<div class="jumbotron index">
-				<h2>
-					Hello, world!
-				</h2>
-				<p>
-					Colocar imagem de background do projeto
-					This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-				</p>
-				<!--<p>
-					<a class="btn btn-primary btn-large" href="#">Learn more</a>
-				</p>-->
-			</div>
+      <!-- carrossel-->
+      <div class="col-md-12">
+  			<div class="carousel slide" id="carousel-891645">
+  				<ol class="carousel-indicators">
+  					<li class="active" data-slide-to="0" data-target="#carousel-891645">
+  					</li>
+  					<li data-slide-to="1" data-target="#carousel-891645">
+  					</li>
+  					<li data-slide-to="2" data-target="#carousel-891645">
+  					</li>
+  				</ol>
+  				<div class="carousel-inner">
+  					<div class="item active">
+  						<img alt="Carousel Bootstrap First" src="images/egito.jpg" />
+  						<div class="carousel-caption">
+  							<h4>
+  								First Thumbnail label
+  							</h4>
+  							<p>
+  								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+  							</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img alt="Carousel Bootstrap Second" src="images/rj.jpg" />
+  						<div class="carousel-caption">
+  							<h4>
+  								Second Thumbnail label
+  							</h4>
+  							<p>
+  								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+  							</p>
+  						</div>
+  					</div>
+  					<div class="item">
+  						<img alt="Carousel Bootstrap Third" src="images/roma.jpg" />
+  						<div class="carousel-caption">
+  							<h4>
+  								Third Thumbnail label
+  							</h4>
+  							<p>
+  								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+  							</p>
+  						</div>
+  					</div>
+  				</div> <a class="left carousel-control" href="#carousel-891645" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-891645" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+  			</div>
+  		</div>
+      <!-- /carrosssel-->
+
 			<div class="row region" id="home">
 				<div class="col-md-12">
 					<h2>Home</h2>
@@ -101,7 +141,7 @@
 					</div>
 					<div class="col-md-4">
 						<h2>Incentive ações</h2>
-						<p>Gere mais visitas, inscrições, instalações e mais, com anúncios de impacto que são rápidos e divertidos de interagir.</p> 
+						<p>Gere mais visitas, inscrições, instalações e mais, com anúncios de impacto que são rápidos e divertidos de interagir.</p>
 					</div>
 				</div>
 			</div>
@@ -109,7 +149,7 @@
 				<div class="col-md-12">
 					<h2>Baixar</h2>
 					<figure>
-						<img src="images/baixarapp.png">
+						<img src="images/baixarapp.png" style="width: 540px;">
 					</figure>
 				</div>
 			</div>
@@ -145,7 +185,7 @@
 					Comprar anúncios </br>
 					Políticas de Publicidade </br>
 					Regras de Promoções </br>
-				</p> 
+				</p>
 			</div>
 		</div>
 	</div>

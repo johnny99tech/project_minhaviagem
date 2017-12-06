@@ -1,41 +1,59 @@
+body{
+	background-color: #e8faf7;
+}
 nav{
-	padding-left: 59px;
+		padding-left: 59px;
 }
 .region{
     padding: 51px 27px;
     margin-top: 0px;
 }
 .region h2{
- 	text-align: center;
+ 		text-align: center;
 }
 #anuncios h3{
- 	text-align: center;
+ 		text-align: center;
 }
 .index{
-	background-color: #e3e327;
-	height: 47vmax;
+		/*background-color: #e3e327;*/
+		background-color: #e8faf7;
+		height: 47vmax;
 }
 #footer{
-	background-color: #262626;
+		background-color: #262626;
     padding: 0px;
-    margin-top: 0px;	
+    margin-top: 0px;
 }
 #baixar{
-	background-color: #fffc00;
+		background-color: #fffc00;
 }
 #home, #voos{
-	background-color: #0066ff;
+		background-color: #e8faf7;
 }
 .info{
-	padding: 25px;	
-	background-color: #f8f9fb;
+		padding: 25px;
+/*	background-color: #e8faf7;*/
+		background-color: #e8faf7;
 }
+#bs-example-navbar-collapse-1 ul li a {
+    color: black;
+}
+.navbar-default .navbar-brand {
+    color: #000;
+}
+/*
+nav{
+	background-color: #16a085;
+}
+nav a {
+	color: black;
+}*/
 
 /* STYLE- DANI*/
 /*
-*{     margin: 0;  
-   	   padding: 0;     list-style-type: none;     box-shadow: border-box; 
-} 
+*{     margin: 0;
+   	   padding: 0;     list-style-type: none;     box-shadow: border-box;
+}
 
 fator do responsivo
 img, picture{   max-width: 100%; }
@@ -73,7 +91,7 @@ header a:hover{
 	text-decoration: underline;
 }
 div.home{
-	position: relative; relativo ao absoluto da div#dest-descricao 
+	position: relative; relativo ao absoluto da div#dest-descricao
 }
 div.dest-descricao{
 	position: absolute;
